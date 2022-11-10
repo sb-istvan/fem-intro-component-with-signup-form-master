@@ -25,7 +25,7 @@ html {
     background: var(--red) url(./images/bg-intro-mobile.png);
 }
 
-body {
+main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -156,7 +156,7 @@ a {
     html {
     background: var(--red) url(./images/bg-intro-desktop.png);
     }
-    body {
+    main {
         grid-template-columns: 1fr 1fr;
         max-width: 69rem;
     }
